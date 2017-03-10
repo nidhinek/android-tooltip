@@ -23,7 +23,7 @@
         android:paddingTop="8dp"
         android:text="Magic"
         android:textColor="@android:color/white"
-        android:textSize="10sp"
+        android:textSize="@dimen/tooltip_txt"
         android:textStyle="normal"
 
         />

@@ -132,7 +132,7 @@ public class TooltipWindow {
                 break;
             case DRAW_LEFT:
                 DRAW_RIGHT:
-                position_x = anchor_rect.left - (contentViewWidth);
+                position_x = anchor_rect.left - (contentViewWidth) - 30;
                 position_y = anchor_rect.top;
                 break;
             case DRAW_RIGHT:
