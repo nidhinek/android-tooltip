@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tooltip_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <!-- <ImageView
+         android:layout_width="300dp"
+         android:layout_height="89dp"
+         app:srcCompat="@drawable/tutorials_boomeffect"
+         android:id="@+id/imageView3" />-->
+
+    <TextView
+        android:id="@+id/tooltip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="PopupWindow"
+        android:textColor="@android:color/white"
+
+
+        android:textStyle="bold" />
+
+</LinearLayout><!--
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:src="@drawable/tutorials_boomeffect" android:scaleType="fitXY" />
+
+<LinearLayout
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    >
+
+    <TextView
+    android:id="@+id/tooltip_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:text="PopupWindow"
+    android:textColor="@android:color/white"
+    android:textSize="20dp"
+
+    android:textStyle="bold" />
+</LinearLayout>
+</FrameLayout>-->
